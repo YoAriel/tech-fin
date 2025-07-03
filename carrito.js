@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded",  () => {
 
       btnVaciar.addEventListener("click", () => {
         vaciarCarrito();
-        window.location.href = "/carrito.html";
+        window.location.href = "carrito.html";
         });
 
       let btnFinalizar = document.createElement("button");
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded",  () => {
         if(confimacion){
           alert("Gracias por su compra");
           localStorage.removeItem("carrito");
-          window.location.href = "/index.html";
+          window.location.href = "index.html";
           
         };
     });
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded",  () => {
     carrito.splice(indice, 1);
     localStorage.setItem("carrito", JSON.stringify(carrito));
     alert("Eliminado");
-    window.location.href = "/carrito.html";
+    window.location.href = "carrito.html";
     renderProductos();
   }
 

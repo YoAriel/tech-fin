@@ -85,6 +85,7 @@ body{
     border-radius: 4px;
     color: #ffff;
     text-decoration: none;
+    background-color: #812d7e;
 }
 
 .contador{
@@ -98,7 +99,7 @@ body{
 }
 
 .menu > ul > :hover{
-    background-color: #e795ca;
+    
     text-shadow: 3px 5px 2px #474747;
 }
 
